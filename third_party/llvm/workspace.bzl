@@ -7,6 +7,12 @@ def repo(name):
     LLVM_COMMIT = "10939d1d580b9d3c9c2f3539c6bdb39f408179c0"
     LLVM_SHA256 = "4adce5ef34c2062be0d7c5eb2a11606fa70690342e7e93327457ee2b6ad7ac72"
 
+    # LLVM_COMMIT = "c6a132a8023db649a658aeceb2edaf046097dbff"
+    # LLVM_SHA256 = "073c904299ca7195c9be5f456fc1ee3a599a398c2e3ef04c0c0ad0188fc81594"
+
+    # LLVM_COMMIT = "ff96267b42021e3f0d886579e5405033a88b7222"
+    # LLVM_SHA256 = "767b20b9c344dff3272dec6b9e7545cdca6f7a73cf2ba3f9db81c9734ff2143a"
+
     tf_http_archive(
         name = name,
         sha256 = LLVM_SHA256,
